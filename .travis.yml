@@ -5,6 +5,5 @@ node_js:
   - "6"
 script:
   - npm run test:lint
-  - npm run test:coverage
 after_success:
   - bash <(curl -s https://codecov.io/bash)

@@ -1,13 +1,11 @@
 {
-  "name": "react-class-active",
-  "description": "Set to a component or html element of the class active",
+  "name": "react-bootstrap-navdropdown-active",
+  "description": "Creare bootstrap NavDropdown component with active",
   "author": "Giuseppe Aremare",
   "user": "neomusic",
   "version": "0.1.0",
   "scripts": {
     "test": "mocha tests/.setup.js tests/**/*_test.jsx",
-    "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch",
     "test:lint": "eslint . --ext .js --ext .jsx --ignore-path .gitignore --ignore-pattern dist --cache",
     "dist:modules": "rimraf ./dist-modules && babel ./src --out-dir ./dist-modules",
     "prepublish": "npm run dist:modules",
