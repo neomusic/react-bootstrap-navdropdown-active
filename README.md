@@ -44,7 +44,7 @@ import ActiveDropdown from ‘react-bootstrap-navdropdown-active’
 | Name Parameter | Required | Type | Note |
 | --- | --- | --- | --- |
 | `activeRoutes ` | Yes  | Array  | Use this parameter to define which routes need to compare  |   |
-|  `baseClassName ` |  Yes | String  | Set the default css class indipendently for active class. If nothing css class must be used by default set empty string  |   |
+|  `baseClassName ` |  Yes | String  | Set the default CSS class independently for active class. If nothing CSS class must be used by default set empty string  |   |
 |  `title ` | Yes  | String  | Set the name showed on top of dropdown  |   |
 
 
@@ -58,7 +58,7 @@ import ActiveDropdown from ‘react-bootstrap-navdropdown-active’
 
 * `Fork the repo`
 * `Make tests for your contribution`
-* `Make your contribute`
+* `Make you contribute`
 * ` Running tests`
 * `Make a pull request`
 
