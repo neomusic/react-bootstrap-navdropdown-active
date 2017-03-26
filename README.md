@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/neomusic/react-bootstrap-navdropdown-active.svg?branch=master)](https://travis-ci.org/neomusic/react-bootstrap-navdropdown-active)
+[![npm version](https://badge.fury.io/js/react-bootstrap-navdropdown-active.svg)](https://badge.fury.io/js/react-bootstrap-navdropdown-active)
+
 # React Bootstrap Navdropdown Active
 
 Make Bootstrap dropdown element for your navbar with active class on dropdown element
