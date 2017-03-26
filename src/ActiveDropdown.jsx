@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default class ActiveDropdown extends React.Component {
-
+class ActiveDropdown extends React.Component {
 
   setActiveClass() {
     if (this.props.activeRoutes.constructor === Array) {
-      const childRouteIsActive = this.props.activeRoutes.find(element => element == window.location.pathname)
-      if (childRouteIsActive === undefined) {
-        return `${this.props.baseClassName}`
+      const childRouteIsActive = this.props.activeRoutes.find(
+        element => element === window.location.pathname
+      )
+      if (childRouteIsActive !== undefined) {
+        return `${this.props.baseClassName} active`
       }
-      return `${this.props.baseClassName} active`
     }
     return `${this.props.baseClassName}`
   }
@@ -26,3 +26,17 @@ export default class ActiveDropdown extends React.Component {
     )
   }
 }
+
+ActiveDropdown.defaultProps = {
+  baseClassName: '',
+  activeRoutes: []
+}
+
+ActiveDropdown.propTypes = {
+  activeRoutes: React.PropTypes.arrayOf.isRequired,
+  baseClassName: React.PropTypes.string.isRequired,
+  title: React.PropTypes.string.isRequired,
+  children: React.PropTypes.shape.isRequired
+}
+
+export default ActiveDropdown

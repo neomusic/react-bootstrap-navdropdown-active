@@ -10,16 +10,11 @@ module.exports = {
     "react"
   ],
   "rules": {
-    "semi": ["error", "never"],
-    "comma-dangle": ["error", "never"],
-    "prefer-arrow-callback": 1,
-    "func-names": 0,
-    "import/no-extraneous-dependencies": 0,
-    "no-underscore-dangle": 0,
-    "no-unused-expressions": 0,
-    "no-use-before-define": 0,
-    "react/sort-comp": 0,
-    "react/no-multi-comp": 0,
-    "react/require-extension": 0
+    "comma-dangle": [2,"never"],
+    "no-duplicate-case": 2,
+    "no-extra-parens": [2,"all"],
+    "no-extra-semi": 2,
+    "linebreak-style": [2,"unix"],
+    "semi": [2,"never"]
   }
 };
