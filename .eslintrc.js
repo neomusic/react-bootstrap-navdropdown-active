@@ -15,6 +15,7 @@ module.exports = {
     "no-extra-parens": [2,"all"],
     "no-extra-semi": 2,
     "linebreak-style": [2,"unix"],
-    "semi": [2,"never"]
+    "semi": [2,"never"],
+    "no-trailing-spaces": [2,{"skipBlankLines":false}]
   }
 };

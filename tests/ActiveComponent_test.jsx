@@ -15,4 +15,15 @@ describe('Test ActiveDropdown component', () => {
     expect(component.find('.active').length).to.equal(1)
     done()
   })
+
+  it('can return component without class active', (done) => {
+    global.window = {
+      location: {
+        pathname: '/foo/baz'
+      }
+    }
+    const component = mount(<ActiveDropdown activeRoutes={['/foo/bar', '/subaru/baracca']} baseClassName="dropdown-toggle" title="Foo" />)
+    expect(component.find('.active').length).to.equal(0)
+    done()
+  })
 })
