@@ -11,7 +11,7 @@
     "prepublish": "npm run dist:modules",
     "postinstall": "node lib/post_install.js"
   },
-  "main": "dist-modules",
+  "main": "dist-modules/ActiveDropdown.js",
   "module": "src",
   "jsnext:main": "src",
   "devDependencies": {
